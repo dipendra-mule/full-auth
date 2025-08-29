@@ -55,16 +55,7 @@ export function LoginForm() {
         <Button type="submit" className="w-full">
           Login
         </Button>
-        <Button variant="outline" className="w-full">
-          {/* google logo */}
-          <Image
-            src="https://www.vectorlogo.zone/logos/google/google-tile.svg"
-            alt="google logo"
-            width={20}
-            height={20}
-            />
-            Login with Google
-        </Button>
+
       </CardFooter>
     </Card>
   )
