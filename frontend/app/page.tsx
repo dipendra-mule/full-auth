@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex h-full flex-col items-center justify-center px-6 py-24 text-center bg-[#000000] text-white">
       <div className="space-y-6">
         <h1 className="font-bold text-white drop-shadow-md">🔒 Full Auth</h1>
-        <LoginButton mode="modal">
+        <LoginButton>
           <Button variant="secondary" className="cursor-pointer">
             SignUp
           </Button>
