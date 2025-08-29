@@ -3,13 +3,9 @@ import { Card } from "@/components/ui/card"
 
 const LoginPage = () => {
     return (
-        <div>
-            auth/login
+        
             <LoginForm/>
-            <Card>
-
-            </Card>
-        </div>
+           
     )
 }
 
